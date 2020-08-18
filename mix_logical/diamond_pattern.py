@@ -19,16 +19,5 @@ while i<num:
 	print()
 	i+=1
 
-# num=0
-# i=5
-# while i>num:
-# 	j=1-i
-# 	while j<=4:
-# 		print(end=" ")
-# 		j+=1
-# 	n=0
-# 	while n<i:
-# 		print("*",end=" ")
-# 		n+=1
-# 	print()
-# 	i-=1
+
+

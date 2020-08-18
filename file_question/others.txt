@@ -1,0 +1,8 @@
+my_file = open("question3.txt")
+file_data = my_file.readlines()
+file_data1=file_data
+i=0
+while(i<len(file_data1)):
+    if 'delhi'  not in file_data1[i] and 'shimla' not in file_data1[i]:
+        print(file_data1[i])
+    i=i+1

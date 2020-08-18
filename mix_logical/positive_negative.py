@@ -1,13 +1,13 @@
 '''Take a number and check wherther it is 
 is positive ,negative or a zero'''
 
-# x=int(input("enter the number:"))
-# if x==0:
-# 	print("its zero")
-# elif x>0:
-# 	print("positive number")
-# else x<0:
-# 	print("nagetive number"_)
+x=int(input("enter the number:"))
+if x==0:
+	print("its zero")
+elif x>0:
+	print("positive number")
+else x<0:
+	print("nagetive number"_)
 
 
 num=int(input("enetr number:"))

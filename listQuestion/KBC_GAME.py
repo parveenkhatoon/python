@@ -1,34 +1,34 @@
 
-# Question_list=[
-# 	"how many continates are there?",
-# 	"what is capital of india?",
-# 	"Ng me kon sa cours hota hai?",
-# ]
+Question_list=[
+	"how many continates are there?",
+	"what is capital of india?",
+	"Ng me kon sa cours hota hai?",
+]
 
-# option_list=[["nine","seven","one","eigth"],
-# 		["gujrat","bhopal","delhi","banglore"],
-# 		["jhadu pocha","khana pakana","softwere engnareeing","palgpan"]
-# ]
+option_list=[["nine","seven","one","eigth"],
+		["gujrat","bhopal","delhi","banglore"],
+		["jhadu pocha","khana pakana","softwere engnareeing","palgpan"]
+]
 
-# solution_list=[2,3,3]
+solution_list=[2,3,3]
 
-# index=0
-# while index<len(Question_list):
-# 	print("Apka sawal hai!!")
-# 	print("")
-# 	print(Question_list[index])
-# 	j=0
-# 	print("Apka options hai!!")
-# 	while j<len(option_list[index]):
-# 		print(j+1,option_list[index][j])
-# 		j=j+1
-# 	answer=int(input("Enter your option_list ka answer:"))
-# 	if answer==solution_list[index]:
-# 		print("congrats!! your answer is right")
-# 	else:
-# 		print("opps!!! sorry your answer is wrong")
-# 	index=index+1
-# print("game is over!! thanku for playing the game")	
+index=0
+while index<len(Question_list):
+	print("Apka sawal hai!!")
+	print("")
+	print(Question_list[index])
+	j=0
+	print("Apka options hai!!")
+	while j<len(option_list[index]):
+		print(j+1,option_list[index][j])
+		j=j+1
+	answer=int(input("Enter your option_list ka answer:"))
+	if answer==solution_list[index]:
+		print("congrats!! your answer is right")
+	else:
+		print("opps!!! sorry your answer is wrong")
+	index=index+1
+print("game is over!! thanku for playing the game")	
 
 
 
@@ -56,11 +56,6 @@ while index<len(Question_list):
 	answer=int(input("Enter the answer/you have 5050 options also:-"))
 	if answer==solution_list[index]:
 		print("congrets your answer is right!!")
-	elif answer==5050:
-		print("This hint work only one time you are sure to use")
-		print(hint_list[index])
-		user=int(input("Enter the 5050 answer:-"))
-		print("Thanku for using 5050 hint")
 		if user==solution_list[index]:
 			print("your answer is right")
 		else:
